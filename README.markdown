@@ -12,25 +12,10 @@ The manager relies on the native expiration capability of Redis to expire keys f
 
 Data stored in the session must be Serializable.
 
-
-Support this project!
----------------------
-
-This is an open-source project. Currently I'm not using this for anything personal or professional, so I'm not able to commit much time to the project, though I attempt to merge in reasonable pull requests. If you like to support further development of this project, you can donate via Pledgie:
-
-<a href='https://pledgie.com/campaigns/26802'><img alt='Click here to lend your support to: Tomcat Redis Session Manager and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/26802.png?skin_name=chrome' border='0' ></a>
-
-
-Commercial Support
-------------------
-
-If your business depends on Tomcat and persistent sessions and you need a specific feature this project doesn't yet support, a quick bug fix you don't have time to author, or commercial support when things go wrong, I can provide support on a contractual support through my consultancy, Orange Function, LLC. If you have any questions or would like to begin discussing a deal, please contact me via email at james@orangefunction.com.
-
-
 Tomcat Versions
 ---------------
 
-This project supports both Tomcat 6 and Tomcat 7. Starting at project version 1.1, precompiled JAR downloads are available for either version of Tomcat while project versions before 1.1 are only available for Tomcat 6.
+This project supports both Tomcat 6 and Tomcat 7 and Tomcat 8. Starting at project version 1.1, precompiled JAR downloads are available for either version of Tomcat while project versions before 1.1 are only available for Tomcat 6.
 
 The official release branches in Git are as follows:
 * `master`: Continuing work for Tomcat 7 releases. Compatible with Java 7.
@@ -38,14 +23,9 @@ The official release branches in Git are as follows:
 
 Finalized branches include:
 * `tomcat-7`: Has been merged into `master`. Compatible with Java 6 or 7.
-* `java-7`: Has been merged into `master`. All of the work from master for Tomcat 7 but taking advantage of new features in Java 7. Compatible with Java 7 only.
-
-Tomcat 8
---------
-
-Tomcat 8 is not currently supported and has not been tested or developed for at all In fact, as noted in various bug reports, the project currently fails to compile when linked with Tomcat 8.
-
-I currently don't have the time to add Tomcat 8 support in my spare time. However if you're interested in Tomcat 8 support for your particular use case and/or business, as the README notes, I'm available as a consultancy on a contractual basis. If you'd like to pursue getting this feature added at a contract rate (and gain some commercial support as well), feel free to contact me at james@orangefunction.com.
+* `java-7`: Has been merged into `master`. All of the work from master for Tomcat 7 but taking advantage of new features in Java 7.
+* `tomcat-8`: Has been merged into `master`. All of the work from master for Tomcat 8.
+Compatible with Java 7 only.
 
 Architecture
 ------------
